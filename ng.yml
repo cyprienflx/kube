@@ -13,7 +13,6 @@ spec:
     - -g
     - daemon off;
     image: docker.io/library/nginx:latest
-    imagePullPolicy: always
     name: ng_ct3
     ports:
     - containerPort: 80
